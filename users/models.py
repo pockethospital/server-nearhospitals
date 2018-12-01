@@ -14,20 +14,21 @@ from hospital.models import Hospital, Department
 class Users(models.Model):
   user = models.OneToOneField(User, on_delete=models.CASCADE)
   image_file = models.ImageField(null=True, blank=True)
-  mobile = models.CharField(max_length=15, blank=True, null=True)
+  mobile = models.CharField(max_length=15, blank=False, null=False, unique=True)
   created_at = models.DateTimeField(auto_now_add=True)
   updated_at = models.DateTimeField(auto_now=True)
   slug = models.SlugField(unique=True)
+  isVerified = models.BooleanField(default=False)
 
   def __str__(self):
     return self.user.username
 
-  def save(self, *args, **kwargs):
-    self.slug = slugify(self.user.username)
-    if not self.id:
-      self.created_at = now()
-    self.updated_at = now()
-    super(Users, self).save(*args, **kwargs)
+  # def save(self, *args, **kwargs):
+  #   self.slug = slugify(self.use  r.username+" "+self.id)
+  #   if not self.id:
+  #     self.created_at = now()
+  #   self.updated_at = now()
+  #   super(Users, self).save(*args, **kwargs)
   
   def get_account(self):
     return {
