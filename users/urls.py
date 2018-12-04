@@ -7,13 +7,14 @@ app_name= 'users'
 
 urlpatterns = [
   url(r'^profile/', views.UserProfile.as_view(), name='profile'),
-  url(r'^change_password_anonymous/$', views.ChangeUserPasswordAnonymous),
-  url(r'^change_password_anonymous_handler/$', views.ChangeUserPasswordAnonymousHandler),
-  url(r'^change_user_password/$', views.ChangeUserPassword),
-  url(r'^specialities/$', views.ListSpecialities.as_view()),
-  url(r'^get_state/$', views.GetState.as_view()),
+  url(r'^change_password_anonymous/$', views.ChangeUserPasswordAnonymous, name='change-password-anonymous'),
+  url(r'^change_password_anonymous_handler/$', views.ChangeUserPasswordAnonymousHandler, name='change-password-anonymous-handler'),
+  url(r'^change_user_password/$', views.ChangeUserPassword, name='change-password'),
+  url(r'^specialities/$', views.ListSpecialities.as_view(), name='all-specialities'),
+  url(r'^get_state/$', views.GetState.as_view(), name='all-states'),
+  url(r'^check-user-existance/', views.checkUserExistence, name='check-user-existance'),
   url(r'^login/', views.signin, name='signin'),
-  url(r'^signup/', views.signup, name='signup'),
+  url(r'^register/', views.signup, name='signup'),
   url(r'^logout/', views.signout, name='signout'),
 ]
 

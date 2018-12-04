@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+# from django.contrib.auth.models import User
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +27,11 @@ SECRET_KEY = 'q-y40f4f*vu26d4n826x6e&6pt-+0k2lzwl5(gcjf^mudix*+('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  'pockethospital2.pythonanywhere.com',
+  'localhost',  
+  '127.0.0.1',  
+]
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'info.pockethospital@gmail.com'
@@ -180,3 +186,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'nearhospitals/static'),
 )
+
+# User._meta.get_field('email')._unique = True
+# User._meta.get_field('email').__dict__['_unique'] = True
