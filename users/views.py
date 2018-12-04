@@ -372,7 +372,7 @@ class ListSpecialities(APIView):
 
   def get(self, request, format=None):
     try:
-      file = open('static/json/specialities.json', 'r', 1)
+      file = open('./static/json/specialities.json', 'r', 1)
     except:
       return Response("Specialities File is Missing.")
     else:
