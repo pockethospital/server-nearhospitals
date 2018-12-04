@@ -25,6 +25,7 @@ import googlemaps
 from nearhospitals.libs.validations import checkExistence
 from django.views.decorators.csrf import csrf_exempt
 from . import serializers
+import os
 
 # Create your views here.
 
@@ -372,11 +373,11 @@ class ListSpecialities(APIView):
 
   def get(self, request, format=None):
     try:
-      file = open('./static/json/specialities.json', 'r', 1)
+      file = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/specialities.json', 'r', 1)
     except:
       return Response("Specialities File is Missing.")
     else:
-      print(request.META)
+      # print(request.META)
       data = json.load(file)
       file.close()
       for dictData in data['specialities']:
