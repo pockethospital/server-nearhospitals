@@ -26,6 +26,7 @@ from nearhospitals.libs.validations import checkExistence
 from django.views.decorators.csrf import csrf_exempt
 from . import serializers
 import os
+from nearhospitals.libs.utils import SMSVerificationSystem 
 
 # Create your views here.
 
@@ -383,3 +384,51 @@ class ListSpecialities(APIView):
       for dictData in data['specialities']:
         dictData['icon'] = request.META['wsgi.url_scheme']+'://'+request.META['HTTP_HOST']+dictData['icon']
       return Response(data['specialities'])
+
+@csrf_exempt
+@api_view(["POST"])
+@permission_classes((AllowAny,))
+def userOTPVerification(request):
+  smsService = SMSVerificationSystem()
+
+  phoneRegex = r'^[0-9]{10}$'
+  template = request.data.get("templateName")
+  phoneNumber = request.data.get("phoneNumber")
+
+  print(re.match(phoneRegex, phoneNumber, flags=0))
+  if phoneNumber is None or template is None:
+    return Response("Invalid Parameters", status=status.HTTP_400_BAD_REQUEST)
+
+  if re.match(phoneRegex, phoneNumber, flags=0) is None:
+    return Response("Invalid Phone Number", status=status.HTTP_400_BAD_REQUEST)
+
+  result = smsService.userOTPVerification(phoneNumber, template)
+  return Response(result)
+
+@csrf_exempt
+@api_view(["POST"])
+@permission_classes((AllowAny,))
+def userOTPValidation(request):
+  smsService = SMSVerificationSystem()
+
+  otp = request.data.get("otp")
+  session = request.data.get("session")
+
+  if otp is None or otp is None:
+    return Response("Invalid Parameters", status=status.HTTP_400_BAD_REQUEST)
+
+  result = smsService.userOTPValidation(otp, session)
+  
+  if result['Status'] == 'Error':
+    return Response(result, status=status.HTTP_400_BAD_REQUEST)
+
+  if result['Status'] == 'Success' and result['Details'] == 'OTP Expired':
+    return Response(result, status=status.HTTP_400_BAD_REQUEST)
+  
+  return Response(result)
+
+@csrf_exempt
+@api_view(["POST"])
+@permission_classes((AllowAny,))
+def userApplicationLink(request):
+  return Response("Link sent successfully!")

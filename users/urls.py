@@ -16,6 +16,8 @@ urlpatterns = [
   url(r'^login/', views.signin, name='signin'),
   url(r'^register/', views.signup, name='signup'),
   url(r'^logout/', views.signout, name='signout'),
+  url(r'^user-otp-verification/', views.userOTPVerification, name='user-otp-verification'),
+  url(r'^user-otp-validation/', views.userOTPValidation, name='user-otp-validation'),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
