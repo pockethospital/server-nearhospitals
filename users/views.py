@@ -290,7 +290,7 @@ class GetState(APIView):
 
   def getStates(self, countryID, format=None):
     try:
-      file = open('media/json/states.json', 'r', 1)
+      file = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/states.json', 'r', 1)
     except:
       self.error = {
         "status": True,
@@ -310,7 +310,7 @@ class GetState(APIView):
     state = self.getOneState(state=state)
     if state is not None:
       try:
-        file = open('media/json/cities.json', 'r', 1)
+        file = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/cities.json', 'r', 1)
       except:
         self.error = {
           "status": True,
