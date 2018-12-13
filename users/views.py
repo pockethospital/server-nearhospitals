@@ -267,6 +267,8 @@ class UserProfile(generics.RetrieveAPIView):
 
 
 class GetState(APIView):
+  permission_classes = (AllowAny,)
+
   cities = []
   states = []
   userLocation = {}
