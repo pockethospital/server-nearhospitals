@@ -371,6 +371,21 @@ class GetState(APIView):
       "cityList": self.cities
     })
 
+  # Get Method 
+  def get(self, request, format=None):
+    self.error = {
+      "status": False,
+      "message": ""
+    }
+    self.getStates('101')
+
+    if self.error["status"]:
+      return Response(self.error, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    return Response({
+      "stateList": self.states,
+    })
+
 class ListSpecialities(APIView):
   permission_classes = (AllowAny,)
 
