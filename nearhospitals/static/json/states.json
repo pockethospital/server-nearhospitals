@@ -1,0 +1,250 @@
+{
+  "states": [
+  {
+    "id": "1",
+    "name": "Andaman and Nicobar Islands",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "2",
+    "name": "Andhra Pradesh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "3",
+    "name": "Arunachal Pradesh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "4",
+    "name": "Assam",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "5",
+    "name": "Bihar",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "6",
+    "name": "Chandigarh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "7",
+    "name": "Chhattisgarh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "8",
+    "name": "Dadra and Nagar Haveli",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "9",
+    "name": "Daman and Diu",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "10",
+    "name": "Delhi",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "11",
+    "name": "Goa",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "12",
+    "name": "Gujarat",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "13",
+    "name": "Haryana",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "14",
+    "name": "Himachal Pradesh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "15",
+    "name": "Jammu and Kashmir",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "16",
+    "name": "Jharkhand",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "17",
+    "name": "Karnataka",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "18",
+    "name": "Kenmore",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "19",
+    "name": "Kerala",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "20",
+    "name": "Lakshadweep",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "21",
+    "name": "Madhya Pradesh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "22",
+    "name": "Maharashtra",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "23",
+    "name": "Manipur",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "24",
+    "name": "Meghalaya",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "25",
+    "name": "Mizoram",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "26",
+    "name": "Nagaland",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "27",
+    "name": "Narora",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "28",
+    "name": "Natwar",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "29",
+    "name": "Odisha",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "30",
+    "name": "Paschim Medinipur",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "31",
+    "name": "Pondicherry",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "32",
+    "name": "Punjab",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "33",
+    "name": "Rajasthan",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "34",
+    "name": "Sikkim",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "35",
+    "name": "Tamil Nadu",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "36",
+    "name": "Telangana",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "37",
+    "name": "Tripura",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "38",
+    "name": "Uttar Pradesh",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "39",
+    "name": "Uttarakhand",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "40",
+    "name": "Vaishali",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  },
+  {
+    "id": "41",
+    "name": "West Bengal",
+    "icon": "/static/shareable/icons/states/default-state.png",
+    "country_id": "101"
+  }
+  ]
+}

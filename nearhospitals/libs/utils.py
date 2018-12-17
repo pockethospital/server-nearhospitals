@@ -1,6 +1,10 @@
 import http.client
 from rest_framework.renderers import JSONRenderer, json
+import os
+from sendgrid.helpers.mail import *
+import sendgrid
 
+# SMS Sending API Methods
 class SMSVerificationSystem:
 
   conn = http.client.HTTPConnection("2factor.in")
@@ -107,3 +111,81 @@ class SMSVerificationSystem:
     result = json.loads(data.decode("utf-8"))
 
     return result
+
+# Returns clients IP address from the request parameter
+def get_client_ip(request):
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(',')[0]
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
+
+class SendEmail:
+
+  sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('SENDGRID_API_KEY'))
+  
+  def sendEmail(self):
+    from_email = Email("winmacinux@gmail.com")
+    to_email = Email("technical.pockethospital@gmail.com")
+    subject = "Sending with SendGrid is Fun"
+    content = Content("text/plain", "and easy to do anywhere, even with Python")
+
+    mail = Mail(from_email, subject, to_email, content)
+    response = self.sg.client.mail.send.post(request_body=mail.get())
+
+    print(response.status_code)
+    print(response.body)
+    print(response.headers)
+    return response
+
+class LocationFile:
+  stateFile = None
+  cityFile = None
+  states = []
+  cities = []
+  error = {}
+
+  def __init__(self):
+    stateFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/states.json' 
+    cityFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/cities.json'
+
+
+    print("open")
+    # print(stateFileName)
+    # print(cityFileName)
+    try:
+      self.stateFile = open(stateFileName, 'r', 1) 
+    except:
+      self.error = {
+        "status": True,
+        "message": "State Not Found in the list."
+      }
+    else:
+      self.states = []
+    
+    try:
+      self.cityFile = open(cityFileName, 'r', 1)
+    except:
+      self.error = {
+        "status": True,
+        "message": "City Not Found in the list."
+      }
+    else:
+      self.cities = []
+
+  def __del__(self):
+    print("CLosed")
+    print(self.error)
+    self.stateFile.close()
+    self.cityFile.close()
+
+  def getAllStates(self):
+    self.states = []
+    print(self.stateFile)
+    data = json.load(self.stateFile)
+    for dictData in data['states']:
+      if dictData['country_id'] == '101':
+        self.states.append(dictData)
+    self.states = sorted(self.states, key= lambda item: item['name'] )
+    return self.states

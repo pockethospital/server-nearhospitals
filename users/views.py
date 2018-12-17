@@ -26,7 +26,8 @@ from nearhospitals.libs.validations import checkExistence
 from django.views.decorators.csrf import csrf_exempt
 from . import serializers
 import os
-from nearhospitals.libs.utils import SMSVerificationSystem 
+from nearhospitals.libs.utils import SMSVerificationSystem, SendEmail, LocationFile
+import sys
 
 # Create your views here.
 
@@ -101,6 +102,10 @@ def checkUserExistence(request):
   isMobile = False 
   isUsername = False
 
+  mail = SendEmail()
+
+  res = mail.sendEmail() 
+
   if checkExistence(cred):
     if re.match(phoneRegex, cred, flags=0) is not None:
       isMobile = True
@@ -112,6 +117,7 @@ def checkUserExistence(request):
         "statusMessage": "User Exist",
         "isMobile": isMobile,
         "isUsername": isUsername,
+        "mailResponse": str(res)
         }, status=status.HTTP_200_OK )
     else:
       return Response({ 
@@ -298,7 +304,12 @@ class GetState(APIView):
       }
     else:
       self.states = []
-      data = json.load(file)
+      
+      try:
+        data = json.load(file)
+      except:
+        print("OOPs! "+str(sys.exc_info()[0])+"Occured.")
+        return
       for dictData in data['states']:
         if dictData['country_id'] == countryID:
           self.states.append(dictData)
@@ -312,13 +323,15 @@ class GetState(APIView):
       try:
         file = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/cities.json', 'r', 1)
       except:
-        self.error = {
-          "status": True,
-          "message": "State File is Missing."
-        }
+        print("OOPs! "+str(sys.exc_info()[0])+"Occured.")
+        return
       else:
         self.cities = []
-        data = json.load(file)
+        try:
+          data = json.load(file)
+        except:
+          print("OOPs! "+str(sys.exc_info()[0])+"Occured.")
+          return
         for dictData in data['cities']:
           if dictData['state_id'].lower() == state['id'].lower():
             self.cities.append(dictData)
@@ -385,6 +398,19 @@ class GetState(APIView):
     return Response({
       "stateList": self.states,
     })
+  
+  def put(self, request):
+    
+    # state = request.data["state"]
+    # self.getStates('101')
+    # if()
+    # self.getCities(state=self.userLocation["state"])
+    state = LocationFile()
+    
+    return Response({
+      "stateList": state.getAllStates(),
+    })    
+
 
 class ListSpecialities(APIView):
   permission_classes = (AllowAny,)
@@ -396,7 +422,11 @@ class ListSpecialities(APIView):
       return Response("Specialities File is Missing.")
     else:
       # print(request.META)
-      data = json.load(file)
+      try:
+        data = json.load(file)
+      except:
+        print("OOPs! "+str(sys.exc_info()[0])+"Occured.")
+        return
       file.close()
       for dictData in data['specialities']:
         dictData['icon'] = request.META['wsgi.url_scheme']+'://'+request.META['HTTP_HOST']+dictData['icon']
