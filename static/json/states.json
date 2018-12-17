@@ -236,12 +236,6 @@
   },
   {
     "id": "40",
-    "name": "Vaishali",
-    "icon": "/static/shareable/icons/states/default-state.png",
-    "country_id": "101"
-  },
-  {
-    "id": "41",
     "name": "West Bengal",
     "icon": "/static/shareable/icons/states/default-state.png",
     "country_id": "101"

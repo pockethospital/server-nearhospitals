@@ -1,0 +1,46 @@
+{
+    "cities": [
+        {
+            "id": "1",
+            "name": "Mumbai",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        },
+        {
+            "id": "2",
+            "name": "Bengaluru",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        },
+        {
+            "id": "3",
+            "name": "Chennai",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        },
+        {
+            "id": "4",
+            "name": "Pune",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        },
+        {
+            "id": "4",
+            "name": "Kolkata",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        },
+        {
+            "id": "4",
+            "name": "Jaipur",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        },
+        {
+            "id": "4",
+            "name": "New Delhi",
+            "icon": "/static/shareable/icons/states/default-state.png",
+            "state_id": "22"
+        }
+    ]
+}

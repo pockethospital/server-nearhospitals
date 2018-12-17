@@ -150,10 +150,6 @@ class LocationFile:
     stateFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/states.json' 
     cityFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/cities.json'
 
-
-    print("open")
-    # print(stateFileName)
-    # print(cityFileName)
     try:
       self.stateFile = open(stateFileName, 'r', 1) 
     except:
@@ -175,12 +171,13 @@ class LocationFile:
       self.cities = []
 
   def __del__(self):
-    print("CLosed")
-    print(self.error)
     self.stateFile.close()
     self.cityFile.close()
 
   def getAllStates(self):
+    if self.error:
+      return self.error
+    
     self.states = []
     print(self.stateFile)
     data = json.load(self.stateFile)
@@ -189,3 +186,63 @@ class LocationFile:
         self.states.append(dictData)
     self.states = sorted(self.states, key= lambda item: item['name'] )
     return self.states
+  
+  def getStateDetails(self, stateName):
+    if self.error:
+      return self.error
+    return list(filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates()))[0]
+  
+  def isState(self, stateName):
+    if self.error:
+      return self.error
+    if len(list(filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates()))) > 0:
+      return True
+    else:
+      return False 
+
+
+  def getAllCities(self):
+    if self.error:
+      return self.error
+    
+    self.cities = []
+    data = json.load(self.cityFile)
+    # for id in range(1, 41):
+    #   print(id)
+    for dictData in data['cities']:
+      self.cities.append(dictData)
+    self.cities = sorted(self.cities, key= lambda item: item['name'] )
+    return self.cities
+  
+  def getTopCities(self):
+    if self.error:
+      return self.error
+    
+    self.cities = []
+    data = json.load(self.cityFile)
+    self.cities = filter(lambda item: (item['quick'] == True), data["cities"])
+    # self.cities = sorted(self.cities, key= lambda item: item['name'] )
+    return self.cities
+  
+  def getStateCities(self, stateID):
+    if self.error:
+      return self.error
+    
+    self.cities = []
+    data = json.load(self.cityFile)
+    self.cities = filter(lambda item: (item['state_id'] == stateID), data["cities"])
+    self.cities = sorted(self.cities, key= lambda item: item['name'] )
+    return self.cities
+
+  # def getStateDetails(self, cityName):
+  #   if self.error:
+  #     return self.error
+  #   return list(filter(lambda item: (item['name'].lower() == cityName.lower()), ))[0]
+  
+  # def isState(self, stateName):
+  #   if self.error:
+  #     return self.error
+  #   if len(list(filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates()))) > 0:
+  #     return True
+  #   else:
+  #     return False 

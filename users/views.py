@@ -408,7 +408,7 @@ class GetState(APIView):
     state = LocationFile()
     
     return Response({
-      "stateList": state.getAllStates(),
+      "cities": state.getStateCities(str(40)),
     })    
 
 
