@@ -408,8 +408,8 @@ class GetState(APIView):
     state = LocationFile()
     
     return Response({
-      "cities": state.getAllCities(),
-    })    
+      "cities": state.getTopCities(),
+    })
 
 
 class ListSpecialities(APIView):

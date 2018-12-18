@@ -211,7 +211,7 @@ class LocationFile:
       title=dictData["name"]
       title = title.strip(" ,")
       maketrans = title.maketrans
-      dictData["icon"] = "/assets/icons/cities/"+title.translate(maketrans(' ', '_')).lower()+"_icon.jpg"
+      # dictData["icon"] = "/assets/icons/cities/"+title.translate(maketrans(' ', '_')).lower()+"_icon.jpg"
       self.cities.append(dictData)
     self.cities = sorted(self.cities, key= lambda item: item['name'] )
     return self.cities
@@ -247,4 +247,4 @@ class LocationFile:
   #   if len(list(filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates()))) > 0:
   #     return True
   #   else:
-  #     return False 
+  #     return False
