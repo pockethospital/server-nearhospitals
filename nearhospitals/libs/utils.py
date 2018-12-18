@@ -207,9 +207,11 @@ class LocationFile:
     
     self.cities = []
     data = json.load(self.cityFile)
-    # for id in range(1, 41):
-    #   print(id)
     for dictData in data['cities']:
+      title=dictData["name"]
+      title = title.strip(" ,")
+      maketrans = title.maketrans
+      dictData["icon"] = "/assets/icons/cities/"+title.translate(maketrans(' ', '_')).lower()+"_icon.jpg"
       self.cities.append(dictData)
     self.cities = sorted(self.cities, key= lambda item: item['name'] )
     return self.cities
