@@ -1,0 +1,319 @@
+{  
+  "cities":[  
+    {  
+      "id":"1",
+      "name":"Arunachal Pradesh",
+      "icon":"states/arunachal_pradesh_icon.jpg",
+      "nearStates": [
+        "Assam", "Nagaland"
+      ],
+      "quick":false
+    },
+    {  
+      "id":"2",
+      "name":"Assam",
+      "icon":"states/assam_icon.jpg",
+      "nearStates": [
+        "Meghalaya", "Arunachal Pradesh", "Nagaland", "Manipur", "Tripura", "Mizoram", "West Bengal"
+      ],
+      "quick":false
+    },
+    {  
+      "id":"3",
+      "name":"Bihar",
+      "icon":"states/bihar_icon.jpg",
+      "nearStates": [
+        "Jharkhand", "Uttar Pradesh", "West Bengal"
+      ],
+      "quick":false
+    },
+    {  
+      "id":"4",
+      "name":"Chhattisgarh",
+      "icon":"states/chhattisgarh_icon.jpg",
+      "nearStates": [
+        "Madhya Pradesh", "Maharashtra", "Jharkhand", "Orissa", "Uttar Pradesh", "Telangana"
+      ],
+      "quick":false
+    },
+    {  
+      "id":"5",
+      "name":"Goa",
+      "icon":"states/goa_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"6",
+      "name":"Gujarat",
+      "icon":"states/gujarat_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"7",
+      "name":"Haryana",
+      "icon":"states/haryana_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"8",
+      "name":"Odisha",
+      "icon":"states/odisha_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"9",
+      "name":"Maharashtra",
+      "icon":"states/maharashtra_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"10",
+      "name":"Punjab",
+      "icon":"states/punjab_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"11",
+      "name":"Himachal Pradesh",
+      "icon":"states/himachal_pradesh_icon.jpg",
+      "nearStates": [
+        "Jammu and Kashmir", "Punjab", "Haryana", "Uttar Pradesh", "Uttrakhand"
+      ]
+      "quick":false
+    },
+    {  
+      "id":"12",
+      "name":"Jammu And Kashmir",
+      "icon":"states/jammu_and_kashmir_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"13",
+      "name":"Jharkhand",
+      "icon":"states/jharkhand_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"14",
+      "name":"Karnataka",
+      "icon":"states/karnataka_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"15",
+      "name":"Kerala",
+      "icon":"states/kerala_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"16",
+      "name":"Madhya Pradesh",
+      "icon":"states/madhya_pradesh_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"17",
+      "name":"Manipur",
+      "icon":"states/manipur_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"18",
+      "name":"Meghalaya",
+      "icon":"states/meghalaya_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"19",
+      "name":"Mizoram",
+      "icon":"states/mizoram_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"20",
+      "name":"Nagaland",
+      "icon":"states/nagaland_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"21",
+      "name":"Rajasthan",
+      "icon":"states/rajasthan_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"22",
+      "name":"Sikkim",
+      "icon":"states/sikkim_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"23",
+      "name":"Tamil Nadu",
+      "icon":"states/tamil_nadu_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"24",
+      "name":"Telangana",
+      "icon":"states/telangana_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"25",
+      "name":"Tripura",
+      "icon":"states/tripura_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"26",
+      "name":"Uttar Pradesh",
+      "icon":"states/uttar_pradesh_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"27",
+      "name":"Uttarakhand",
+      "icon":"states/uttarakhand_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"28",
+      "name":"West Bengal",
+      "icon":"states/west_bengal_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"29",
+      "name":"Andaman And Nicobar Islands",
+      "icon":"states/andaman_and_nicobar_islands_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"30",
+      "name":"Dadra And Nagar Haveli",
+      "icon":"states/dadra_and_nagar_haveli_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"31",
+      "name":"Daman And Diu",
+      "icon":"states/daman_and_diu_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"32",
+      "name":"Lakshadweep",
+      "icon":"states/lakshadweep_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"33",
+      "name":"Puducherry",
+      "icon":"states/puducherry_icon.jpg",
+      "nearStates": [
+
+      ]
+      "quick":false
+    },
+    {  
+      "id":"34",
+      "name":"Pondicherry",
+      "icon":"states/pondicherry_icon.jpg",
+      "nearStates": [
+        "Assam", "Nagaland"
+      ],
+      "quick":false
+    },
+    {  
+      "id":"35",
+      "name":"Andhra Pradesh",
+      "icon":"states/andhra_pradesh_icon.jpg",
+      "nearStates": [
+        "Odisha", "Chhattisgarh", "Telangana", "Karnataka", "Puducherry", "Tamil Madu"
+      ],
+      "quick":false
+    }
+  ]
+}
