@@ -1,0 +1,437 @@
+[{
+    "address_components": [{
+        "long_name": "Hyderabad",
+        "short_name": "Hyderabad",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }, {
+        "long_name": "500081",
+        "short_name": "500081",
+        "types": ["postal_code"]
+    }],
+    "formatted_address": "Plot No.150, Ayyappa society madhapur, 4th Floor, Hitech city road, Hyderabad, Telangana 500081, India",
+    "geometry": {
+        "location": {
+            "lat": 17.4480608,
+            "lng": 78.3840223
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+            "northeast": {
+                "lat": 17.4494097802915,
+                "lng": 78.38537128029151
+            },
+            "southwest": {
+                "lat": 17.4467118197085,
+                "lng": 78.3826733197085
+            }
+        }
+    },
+    "place_id": "ChIJQYCpgd-TyzsRBLGDwHcz04s",
+    "plus_code": {
+        "compound_code": "C9XM+6J Hyderabad, Telangana, India",
+        "global_code": "7J9WC9XM+6J"
+    },
+    "types": ["establishment", "point_of_interest"]
+}, {
+    "address_components": [{
+        "long_name": "Hitech City Road",
+        "short_name": "HCR",
+        "types": ["route"]
+    }, {
+        "long_name": "Jaihind Enclave",
+        "short_name": "Jaihind Enclave",
+        "types": ["political", "sublocality", "sublocality_level_2"]
+    }, {
+        "long_name": "HITEC City",
+        "short_name": "HITEC City",
+        "types": ["political", "sublocality", "sublocality_level_1"]
+    }, {
+        "long_name": "Hyderabad",
+        "short_name": "Hyderabad",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Ranga Reddy",
+        "short_name": "R.R. District",
+        "types": ["administrative_area_level_2", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }, {
+        "long_name": "500081",
+        "short_name": "500081",
+        "types": ["postal_code"]
+    }],
+    "formatted_address": "Hitech City Rd, Jaihind Enclave, HITEC City, Hyderabad, Telangana 500081, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 17.4482439,
+                "lng": 78.3843514
+            },
+            "southwest": {
+                "lat": 17.4475335,
+                "lng": 78.3838823
+            }
+        },
+        "location": {
+            "lat": 17.4478996,
+            "lng": 78.384135
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+            "northeast": {
+                "lat": 17.4492376802915,
+                "lng": 78.38546583029151
+            },
+            "southwest": {
+                "lat": 17.4465397197085,
+                "lng": 78.3827678697085
+            }
+        }
+    },
+    "place_id": "ChIJK_0cgd-TyzsRWm1Kn-eO5B8",
+    "types": ["route"]
+}, {
+    "address_components": [{
+        "long_name": "Jaihind Enclave",
+        "short_name": "Jaihind Enclave",
+        "types": ["political", "sublocality", "sublocality_level_2"]
+    }, {
+        "long_name": "Madhapur",
+        "short_name": "Madhapur",
+        "types": ["political", "sublocality", "sublocality_level_1"]
+    }, {
+        "long_name": "Hyderabad",
+        "short_name": "Hyderabad",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Ranga Reddy",
+        "short_name": "R.R. District",
+        "types": ["administrative_area_level_2", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }, {
+        "long_name": "500081",
+        "short_name": "500081",
+        "types": ["postal_code"]
+    }],
+    "formatted_address": "Jaihind Enclave, Madhapur, Hyderabad, Telangana 500081, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 17.4527939,
+                "lng": 78.38921859999999
+            },
+            "southwest": {
+                "lat": 17.4440131,
+                "lng": 78.38118159999999
+            }
+        },
+        "location": {
+            "lat": 17.449783,
+            "lng": 78.3856447
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 17.4527939,
+                "lng": 78.38921859999999
+            },
+            "southwest": {
+                "lat": 17.4440131,
+                "lng": 78.38118159999999
+            }
+        }
+    },
+    "place_id": "ChIJWdYxrWGRyzsR9kvuu4MJggs",
+    "types": ["political", "sublocality", "sublocality_level_2"]
+}, {
+    "address_components": [{
+        "long_name": "Madhapur",
+        "short_name": "Madhapur",
+        "types": ["political", "sublocality", "sublocality_level_1"]
+    }, {
+        "long_name": "Hyderabad",
+        "short_name": "Hyderabad",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Ranga Reddy",
+        "short_name": "R.R. District",
+        "types": ["administrative_area_level_2", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }],
+    "formatted_address": "Madhapur, Hyderabad, Telangana, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 17.4708411,
+                "lng": 78.40562489999999
+            },
+            "southwest": {
+                "lat": 17.426033,
+                "lng": 78.37766649999999
+            }
+        },
+        "location": {
+            "lat": 17.4482929,
+            "lng": 78.3914851
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 17.4708411,
+                "lng": 78.40562489999999
+            },
+            "southwest": {
+                "lat": 17.426033,
+                "lng": 78.37766649999999
+            }
+        }
+    },
+    "place_id": "ChIJBbIB8liRyzsRG0GSd77nuxE",
+    "types": ["political", "sublocality", "sublocality_level_1"]
+}, {
+    "address_components": [{
+        "long_name": "500081",
+        "short_name": "500081",
+        "types": ["postal_code"]
+    }, {
+        "long_name": "Hyderabad",
+        "short_name": "Hyderabad",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Ranga Reddy",
+        "short_name": "R.R. District",
+        "types": ["administrative_area_level_2", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }],
+    "formatted_address": "Hyderabad, Telangana 500081, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 17.4669043,
+                "lng": 78.3991011
+            },
+            "southwest": {
+                "lat": 17.4191474,
+                "lng": 78.3626306
+            }
+        },
+        "location": {
+            "lat": 17.4433571,
+            "lng": 78.38221109999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 17.4669043,
+                "lng": 78.3991011
+            },
+            "southwest": {
+                "lat": 17.4191474,
+                "lng": 78.3626306
+            }
+        }
+    },
+    "place_id": "ChIJs_uL8OCTyzsRGj99UiwzVCQ",
+    "types": ["postal_code"]
+}, {
+    "address_components": [{
+        "long_name": "Hyderabad",
+        "short_name": "Hyderabad",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country",
+            "political"
+        ]
+    }],
+    "formatted_address": "Hyderabad, Telangana, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 17.6078088,
+                "lng": 78.6561694
+            },
+            "southwest": {
+                "lat": 17.2168886,
+                "lng": 78.1599217
+            }
+        },
+        "location": {
+            "lat": 17.385044,
+            "lng": 78.486671
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 17.6078088,
+                "lng": 78.6561694
+            },
+            "southwest": {
+                "lat": 17.2168886,
+                "lng": 78.1599217
+            }
+        }
+    },
+    "place_id": "ChIJx9Lr6tqZyzsRwvu6koO3k64",
+    "types": ["locality", "political"]
+}, {
+    "address_components": [{
+        "long_name": "Ranga Reddy",
+        "short_name": "R.R. District",
+        "types": ["administrative_area_level_2", "political"]
+    }, {
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }],
+    "formatted_address": "Ranga Reddy, Telangana, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 17.7082,
+                "lng": 78.8461499
+            },
+            "southwest": {
+                "lat": 16.8456899,
+                "lng": 77.36438989999999
+            }
+        },
+        "location": {
+            "lat": 17.3891379,
+            "lng": 77.8367282
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 17.7082,
+                "lng": 78.8461499
+            },
+            "southwest": {
+                "lat": 16.8456899,
+                "lng": 77.36438989999999
+            }
+        }
+    },
+    "place_id": "ChIJx9Lr6tqZyzsRQZtu9ErRBAs",
+    "types": ["administrative_area_level_2", "political"]
+}, {
+    "address_components": [{
+        "long_name": "Telangana",
+        "short_name": "Telangana",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }],
+    "formatted_address": "Telangana, India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 19.916715,
+                "lng": 81.31614890000002
+            },
+            "southwest": {
+                "lat": 15.8373113,
+                "lng": 77.23791299999999
+            }
+        },
+        "location": {
+            "lat": 18.1124372,
+            "lng": 79.01929969999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 19.916715,
+                "lng": 81.31614890000002
+            },
+            "southwest": {
+                "lat": 15.8373113,
+                "lng": 77.23791299999999
+            }
+        }
+    },
+    "place_id": "ChIJQ-0plNtQMzoRWUBZQad772M",
+    "types": ["administrative_area_level_1", "political"]
+}, {
+    "address_components": [{
+        "long_name": "India",
+        "short_name": "IN",
+        "types": ["country", "political"]
+    }],
+    "formatted_address": "India",
+    "geometry": {
+        "bounds": {
+            "northeast": {
+                "lat": 35.513327,
+                "lng": 97.39535869999999
+            },
+            "southwest": {
+                "lat": 6.4626999,
+                "lng": 68.1097
+            }
+        },
+        "location": {
+            "lat": 20.593684,
+            "lng": 78.96288
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+            "northeast": {
+                "lat": 35.513327,
+                "lng": 97.39535869999999
+            },
+            "southwest": {
+                "lat": 6.4626999,
+                "lng": 68.1097
+            }
+        }
+    },
+    "place_id": "ChIJkbeSa_BfYzARphNChaFPjNc",
+    "types": ["country", "political"]
+}]

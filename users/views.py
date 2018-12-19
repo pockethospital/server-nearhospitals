@@ -28,7 +28,7 @@ from . import serializers
 import os
 from nearhospitals.libs.utils import SMSVerificationSystem, SendEmail, LocationFile
 import sys
-
+from nearhospitals.libs.maps import GoogleMaps
 # Create your views here.
 
 # If you want to make the data request from the same domain of the server. 
@@ -351,7 +351,7 @@ class GetState(APIView):
 
     # Length of the address distribution
     n = len(reverse_geocode_result[0]["address_components"])
-
+    print(reverse_geocode_result)
     self.userLocation = {
       "coords": {
         "latitude": userData['coords']['latitude'],
@@ -405,10 +405,11 @@ class GetState(APIView):
     # self.getStates('101')
     # if()
     # self.getCities(state=self.userLocation["state"])
-    state = LocationFile()
+    # state = LocationFile()
+    gm = GoogleMaps(request.data["coords"]["latitude"], request.data["coords"]["longitude"])
     
     return Response({
-      "cities": state.getTopCities(),
+      "address": gm.getAddressComponents()
     })
 
 
