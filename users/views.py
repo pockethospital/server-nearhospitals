@@ -311,8 +311,8 @@ class GetState(APIView):
         print("OOPs! "+str(sys.exc_info()[0])+"Occured.")
         return
       for dictData in data['states']:
-        if dictData['country_id'] == countryID:
-          self.states.append(dictData)
+        self.states.append(dictData)
+        
       self.states = sorted(self.states, key= lambda item: item['name'] )
       file.close()
 
@@ -375,6 +375,10 @@ class GetState(APIView):
     self.getStates('101')
     self.getCities(state=self.userLocation["state"])
 
+    # print(request.META['wsgi.url_scheme']+'://'+request.META['HTTP_HOST']) 
+    for data in self.states:
+      data['icon'] = request.META['wsgi.url_scheme']+'://'+request.META['HTTP_HOST'] + data['icon']
+
     if self.error["status"]:
       return Response(self.error, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
@@ -391,6 +395,9 @@ class GetState(APIView):
       "message": ""
     }
     self.getStates('101')
+
+    for data in self.states:
+      data['icon'] = request.META['wsgi.url_scheme']+'://'+request.META['HTTP_HOST'] + data['icon']
 
     if self.error["status"]:
       return Response(self.error, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
@@ -409,7 +416,7 @@ class GetState(APIView):
     gm = GoogleMaps(request.data["coords"]["latitude"], request.data["coords"]["longitude"])
     
     return Response({
-      "address": gm.getAddressComponents()
+      "address": "gm.getAddressComponents()"
     })
 
 
@@ -480,3 +487,29 @@ def userOTPValidation(request):
 @permission_classes((AllowAny,))
 def userApplicationLink(request):
   return Response("Link sent successfully!")
+
+
+
+
+# Get Location Views
+@api_view(["GET"])
+@csrf_exempt
+@permission_classes((AllowAny,))
+def getTopCities(request):
+  locationFile = LocationFile()
+  
+  return Response({
+    "cities": locationFile.getTopCities()
+  })
+
+# Get Location Views
+@api_view(["GET"])
+@csrf_exempt
+@permission_classes((AllowAny,))
+def getAllStates(request):
+  locationFile = LocationFile()
+  
+  return Response({
+    "states": locationFile.getAllStates()
+  })
+

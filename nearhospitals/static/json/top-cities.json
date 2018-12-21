@@ -5,350 +5,350 @@
             "name": "Agra",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/agra_icon.jpg"
+            "icon": "/static/shareable/icons/cities/agra_icon.jpg"
         },
         {
             "id": "783",
             "name": "Ahmedabad",
             "state_id": "12",
             "quick": true,
-            "icon": "/assets/icons/cities/ahmedabad_icon.jpg"
+            "icon": "/static/shareable/icons/cities/ahmedabad_icon.jpg"
         },
         {
             "id": "4546",
             "name": "Allahabad",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/allahabad_icon.jpg"
+            "icon": "/static/shareable/icons/cities/allahabad_icon.jpg"
         },
         {
             "id": "3134",
             "name": "Amritsar",
             "state_id": "32",
             "quick": true,
-            "icon": "/assets/icons/cities/amritsar_icon.jpg"
+            "icon": "/static/shareable/icons/cities/amritsar_icon.jpg"
         },
         {
             "id": "4571",
             "name": "Aurangabad",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/aurangabad_icon.jpg"
+            "icon": "/static/shareable/icons/cities/aurangabad_icon.jpg"
         },
         {
             "id": "1558",
             "name": "Bengaluru",
             "state_id": "17",
             "quick": true,
-            "icon": "/assets/icons/cities/bengaluru_icon.jpg"
+            "icon": "/static/shareable/icons/cities/bengaluru_icon.jpg"
         },
         {
             "id": "2145",
             "name": "Bhopal",
             "state_id": "21",
             "quick": true,
-            "icon": "/assets/icons/cities/bhopal_icon.jpg"
+            "icon": "/static/shareable/icons/cities/bhopal_icon.jpg"
         },
         {
             "id": "2995",
             "name": "Bhubaneswar",
             "state_id": "29",
             "quick": true,
-            "icon": "/assets/icons/cities/bhubaneswar_icon.jpg"
+            "icon": "/static/shareable/icons/cities/bhubaneswar_icon.jpg"
         },
         {
             "id": "594",
             "name": "Chandigarh",
             "state_id": "6",
             "quick": true,
-            "icon": "/assets/icons/cities/chandigarh_icon.jpg"
+            "icon": "/static/shareable/icons/cities/chandigarh_icon.jpg"
         },
         {
             "id": "3659",
             "name": "Chennai",
             "state_id": "35",
             "quick": true,
-            "icon": "/assets/icons/cities/chennai_icon.jpg"
+            "icon": "/static/shareable/icons/cities/chennai_icon.jpg"
         },
         {
             "id": "3683",
             "name": "Coimbatore",
             "state_id": "35",
             "quick": true,
-            "icon": "/assets/icons/cities/coimbatore_icon.jpg"
+            "icon": "/static/shareable/icons/cities/coimbatore_icon.jpg"
         },
         {
             "id": "5236",
             "name": "Dehradun",
             "state_id": "39",
             "quick": true,
-            "icon": "/assets/icons/cities/dehradun_icon.jpg"
+            "icon": "/static/shareable/icons/cities/dehradun_icon.jpg"
         },
         {
             "id": "1119",
             "name": "Faridabad",
             "state_id": "13",
             "quick": true,
-            "icon": "/assets/icons/cities/faridabad_icon.jpg"
+            "icon": "/static/shareable/icons/cities/faridabad_icon.jpg"
         },
         {
             "id": "4759",
             "name": "Ghaziabad",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/ghaziabad_icon.jpg"
+            "icon": "/static/shareable/icons/cities/ghaziabad_icon.jpg"
         },
         {
             "id": "1126",
             "name": "Gurugram",
             "state_id": "13",
             "quick": true,
-            "icon": "/assets/icons/cities/gurugram_icon.jpg"
+            "icon": "/static/shareable/icons/cities/gurugram_icon.jpg"
         },
         {
             "id": "371",
             "name": "Guwahati",
             "state_id": "4",
             "quick": true,
-            "icon": "/assets/icons/cities/guwahati_icon.jpg"
+            "icon": "/static/shareable/icons/cities/guwahati_icon.jpg"
         },
         {
             "id": "4460",
             "name": "Hyderabad",
             "state_id": "36",
             "quick": true,
-            "icon": "/assets/icons/cities/hyderabad_icon.jpg"
+            "icon": "/static/shareable/icons/cities/hyderabad_icon.jpg"
         },
         {
             "id": "2229",
             "name": "Indore",
             "state_id": "21",
             "quick": true,
-            "icon": "/assets/icons/cities/indore_icon.jpg"
+            "icon": "/static/shareable/icons/cities/indore_icon.jpg"
         },
         {
             "id": "3378",
             "name": "Jaipur",
             "state_id": "33",
             "quick": true,
-            "icon": "/assets/icons/cities/jaipur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/jaipur_icon.jpg"
         },
         {
             "id": "1425",
             "name": "Jamshedpur",
             "state_id": "16",
             "quick": true,
-            "icon": "/assets/icons/cities/jamshedpur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/jamshedpur_icon.jpg"
         },
         {
             "id": "3387",
             "name": "Jodhpur",
             "state_id": "33",
             "quick": true,
-            "icon": "/assets/icons/cities/jodhpur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/jodhpur_icon.jpg"
         },
         {
             "id": "4861",
             "name": "Kanpur",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/kanpur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/kanpur_icon.jpg"
         },
         {
             "id": "1930",
             "name": "Kochi",
             "state_id": "19",
             "quick": true,
-            "icon": "/assets/icons/cities/kochi_icon.jpg"
+            "icon": "/static/shareable/icons/cities/kochi_icon.jpg"
         },
         {
             "id": "5583",
             "name": "Kolkata",
             "state_id": "40",
             "quick": true,
-            "icon": "/assets/icons/cities/kolkata_icon.jpg"
+            "icon": "/static/shareable/icons/cities/kolkata_icon.jpg"
         },
         {
             "id": "4933",
             "name": "Lucknow",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/lucknow_icon.jpg"
+            "icon": "/static/shareable/icons/cities/lucknow_icon.jpg"
         },
         {
             "id": "3225",
             "name": "Ludhiana",
             "state_id": "32",
             "quick": true,
-            "icon": "/assets/icons/cities/ludhiana_icon.jpg"
+            "icon": "/static/shareable/icons/cities/ludhiana_icon.jpg"
         },
         {
             "id": "3912",
             "name": "Madurai",
             "state_id": "35",
             "quick": true,
-            "icon": "/assets/icons/cities/madurai_icon.jpg"
+            "icon": "/static/shareable/icons/cities/madurai_icon.jpg"
         },
         {
             "id": "1725",
             "name": "Mangalore",
             "state_id": "17",
             "quick": true,
-            "icon": "/assets/icons/cities/mangalore_icon.jpg"
+            "icon": "/static/shareable/icons/cities/mangalore_icon.jpg"
         },
         {
             "id": "2707",
             "name": "Mumbai",
             "state_id": "22",
             "quick": true,
-            "icon": "/assets/icons/cities/mumbai_icon.jpg"
+            "icon": "/static/shareable/icons/cities/mumbai_icon.jpg"
         },
         {
             "id": "1750",
             "name": "Mysore",
             "state_id": "17",
             "quick": true,
-            "icon": "/assets/icons/cities/mysore_icon.jpg"
+            "icon": "/static/shareable/icons/cities/mysore_icon.jpg"
         },
         {
             "id": "2715",
             "name": "Nagpur",
             "state_id": "22",
             "quick": true,
-            "icon": "/assets/icons/cities/nagpur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/nagpur_icon.jpg"
         },
         {
             "id": "2724",
             "name": "Nashik",
             "state_id": "22",
             "quick": true,
-            "icon": "/assets/icons/cities/nashik_icon.jpg"
+            "icon": "/static/shareable/icons/cities/nashik_icon.jpg"
         },
         {
             "id": "2726",
             "name": "Navi Mumbai",
             "state_id": "22",
             "quick": true,
-            "icon": "/assets/icons/cities/navi_mumbai_icon.jpg"
+            "icon": "/static/shareable/icons/cities/navi_mumbai_icon.jpg"
         },
         {
             "id": "5022",
             "name": "Noida",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/noida_icon.jpg"
+            "icon": "/static/shareable/icons/cities/noida_icon.jpg"
         },
         {
             "id": "563",
             "name": "Patna",
             "state_id": "5",
             "quick": true,
-            "icon": "/assets/icons/cities/patna_icon.jpg"
+            "icon": "/static/shareable/icons/cities/patna_icon.jpg"
         },
         {
             "id": "2763",
             "name": "Pune",
             "state_id": "22",
             "quick": true,
-            "icon": "/assets/icons/cities/pune_icon.jpg"
+            "icon": "/static/shareable/icons/cities/pune_icon.jpg"
         },
         {
             "id": "3477",
             "name": "Raipur",
             "state_id": "33",
             "quick": true,
-            "icon": "/assets/icons/cities/raipur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/raipur_icon.jpg"
         },
         {
             "id": "1011",
             "name": "Rajkot",
             "state_id": "12",
             "quick": true,
-            "icon": "/assets/icons/cities/rajkot_icon.jpg"
+            "icon": "/static/shareable/icons/cities/rajkot_icon.jpg"
         },
         {
             "id": "1492",
             "name": "Ranchi",
             "state_id": "16",
             "quick": true,
-            "icon": "/assets/icons/cities/ranchi_icon.jpg"
+            "icon": "/static/shareable/icons/cities/ranchi_icon.jpg"
         },
         {
             "id": "1262",
             "name": "Shimla",
             "state_id": "14",
             "quick": true,
-            "icon": "/assets/icons/cities/shimla_icon.jpg"
+            "icon": "/static/shareable/icons/cities/shimla_icon.jpg"
         },
         {
             "id": "5304",
             "name": "Srinagar",
             "state_id": "39",
             "quick": true,
-            "icon": "/assets/icons/cities/srinagar_icon.jpg"
+            "icon": "/static/shareable/icons/cities/srinagar_icon.jpg"
         },
         {
             "id": "1041",
             "name": "Surat",
             "state_id": "12",
             "quick": true,
-            "icon": "/assets/icons/cities/surat_icon.jpg"
+            "icon": "/static/shareable/icons/cities/surat_icon.jpg"
         },
         {
             "id": "2836",
             "name": "Thane",
             "state_id": "22",
             "quick": true,
-            "icon": "/assets/icons/cities/thane_icon.jpg"
+            "icon": "/static/shareable/icons/cities/thane_icon.jpg"
         },
         {
             "id": "2045",
             "name": "Thiruvananthapuram",
             "state_id": "19",
             "quick": true,
-            "icon": "/assets/icons/cities/thiruvananthapuram_icon.jpg"
+            "icon": "/static/shareable/icons/cities/thiruvananthapuram_icon.jpg"
         },
         {
             "id": "4280",
             "name": "Tiruchirappalli",
             "state_id": "35",
             "quick": true,
-            "icon": "/assets/icons/cities/tiruchirappalli_icon.jpg"
+            "icon": "/static/shareable/icons/cities/tiruchirappalli_icon.jpg"
         },
         {
             "id": "3532",
             "name": "Udaipur",
             "state_id": "33",
             "quick": true,
-            "icon": "/assets/icons/cities/udaipur_icon.jpg"
+            "icon": "/static/shareable/icons/cities/udaipur_icon.jpg"
         },
         {
             "id": "1068",
             "name": "Vadodara",
             "state_id": "12",
             "quick": true,
-            "icon": "/assets/icons/cities/vadodara_icon.jpg"
+            "icon": "/static/shareable/icons/cities/vadodara_icon.jpg"
         },
         {
             "id": "5211",
             "name": "Varanasi",
             "state_id": "38",
             "quick": true,
-            "icon": "/assets/icons/cities/varanasi_icon.jpg"
+            "icon": "/static/shareable/icons/cities/varanasi_icon.jpg"
         },
         {
             "id": "285",
             "name": "Vijayawada",
             "state_id": "2",
             "quick": true,
-            "icon": "/assets/icons/cities/vijayawada_icon.jpg"
+            "icon": "/static/shareable/icons/cities/vijayawada_icon.jpg"
         },
         {
             "id": "287",
             "name": "Visakhapatnam",
             "state_id": "2",
             "quick": true,
-            "icon": "/assets/icons/cities/visakhapatnam_icon.jpg"
+            "icon": "/static/shareable/icons/cities/visakhapatnam_icon.jpg"
         }
     ]
 }

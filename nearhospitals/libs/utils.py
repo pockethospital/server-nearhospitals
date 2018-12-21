@@ -4,6 +4,9 @@ import os
 from sendgrid.helpers.mail import *
 import sendgrid
 
+def getHostName():
+  return 'http://localhost:8000'
+
 # SMS Sending API Methods
 class SMSVerificationSystem:
 
@@ -170,10 +173,12 @@ class LocationFile:
     else:
       self.cities = []
 
+  # Destructor Defination
   def __del__(self):
     self.stateFile.close()
     self.cityFile.close()
 
+  # States Methods Definations
   def getAllStates(self):
     if self.error:
       return self.error
@@ -182,8 +187,8 @@ class LocationFile:
     print(self.stateFile)
     data = json.load(self.stateFile)
     for dictData in data['states']:
-      if dictData['country_id'] == '101':
-        self.states.append(dictData)
+      dictData['icon'] = getHostName()+dictData['icon']
+      self.states.append(dictData)
     self.states = sorted(self.states, key= lambda item: item['name'] )
     return self.states
   
@@ -200,7 +205,7 @@ class LocationFile:
     else:
       return False 
 
-
+  # Cities Methods Defination
   def getAllCities(self):
     if self.error:
       return self.error
@@ -223,7 +228,7 @@ class LocationFile:
     self.cities = []
     data = json.load(self.cityFile)
     self.cities = filter(lambda item: (item['quick'] == True), data["cities"])
-    # self.cities = sorted(self.cities, key= lambda item: item['name'] )
+    self.cities = sorted(self.cities, key= lambda item: item['name'] )
     return self.cities
   
   def getStateCities(self, stateID):

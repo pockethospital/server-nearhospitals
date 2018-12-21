@@ -7,13 +7,13 @@ class GoogleMaps:
         self.coordinates = tuple((lat, lng))
         self.reverse_geocode_result = self.gmaps.reverse_geocode(self.coordinates)
 
-    def getAddressComponents(self):
-        addressComponents = set(())
-        for address in self.reverse_geocode_result:
-            for addressComponent in address["address_components"]:
-                addressComponents.add({
-                    "name": addressComponent['long_name'],
-                    "type": "addressComponent['types'][0]"
-                })
+    # def getAddressComponents(self):
+    #     addressComponents = set(())
+    #     for address in self.reverse_geocode_result:
+    #         for addressComponent in address["address_components"]:
+    #             addressComponents.add({
+    #                 "name": addressComponent['long_name'],
+    #                 "type": "addressComponent['types'][0]"
+    #             })
 
-        return addressComponents
+    #     return addressComponents
