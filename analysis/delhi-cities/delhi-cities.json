@@ -1,0 +1,382 @@
+{
+  "cities": [
+    {
+      "id": "delhi-cities-1",
+      "name": "New",
+      "icon": "delhi-cities/new_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-2",
+      "name": "Gurugram",
+      "icon": "delhi-cities/gurugram_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-3",
+      "name": "faridabad",
+      "icon": "delhi-cities/faridabad_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-4",
+      "name": "Mehrauli",
+      "icon": "delhi-cities/mehrauli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-5",
+      "name": "Ghaziabad",
+      "icon": "delhi-cities/ghaziabad_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-6",
+      "name": "Connaught Place",
+      "icon": "delhi-cities/connaught_place_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-7",
+      "name": "Sonipat",
+      "icon": "delhi-cities/sonipat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-8",
+      "name": "Delhi Cantonment",
+      "icon": "delhi-cities/delhi_cantonment_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-9",
+      "name": "Karol Bagh",
+      "icon": "delhi-cities/karol_bagh_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-10",
+      "name": "Dilshad Garden",
+      "icon": "delhi-cities/dilshad_garden_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-11",
+      "name": "Patparganj",
+      "icon": "delhi-cities/patparganj_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-12",
+      "name": "Chanakyapuri",
+      "icon": "delhi-cities/chanakyapuri_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-13",
+      "name": "Dwarka",
+      "icon": "delhi-cities/dwarka_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-14",
+      "name": "Bawana",
+      "icon": "delhi-cities/bawana_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-15",
+      "name": "Panipat",
+      "icon": "delhi-cities/panipat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-16",
+      "name": "Badarpur",
+      "icon": "delhi-cities/badarpur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-17",
+      "name": "Nangloi Jat",
+      "icon": "delhi-cities/nangloi_jat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-18",
+      "name": "Bulandshahr",
+      "icon": "delhi-cities/bulandshahr_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-19",
+      "name": "Kondli",
+      "icon": "delhi-cities/kondli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-20",
+      "name": "Karawal Nagar",
+      "icon": "delhi-cities/karawal_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-21",
+      "name": "Begum Pur",
+      "icon": "delhi-cities/begum_pur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-22",
+      "name": "Janakpuri",
+      "icon": "delhi-cities/janakpuri_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-23",
+      "name": "Burari",
+      "icon": "delhi-cities/burari_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-24",
+      "name": "Vasant Kunj",
+      "icon": "delhi-cities/vasant_kunj_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-25",
+      "name": "Shahpur Jat",
+      "icon": "delhi-cities/shahpur_jat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-26",
+      "name": "Rohini",
+      "icon": "delhi-cities/rohini_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-27",
+      "name": "Shahdara",
+      "icon": "delhi-cities/shahdara_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-28",
+      "name": "Kanjhawala",
+      "icon": "delhi-cities/kanjhawala_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-29",
+      "name": "Mundka",
+      "icon": "delhi-cities/mundka_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-30",
+      "name": "Greater Kailash",
+      "icon": "delhi-cities/greater_kailash_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-31",
+      "name": "Kapas Hera",
+      "icon": "delhi-cities/kapas_hera_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-32",
+      "name": "Najafgarh",
+      "icon": "delhi-cities/najafgarh_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-33",
+      "name": "Sultan Pur",
+      "icon": "delhi-cities/sultan_pur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-34",
+      "name": "Mandoli",
+      "icon": "delhi-cities/mandoli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-35",
+      "name": "Mongol Pur Kalan",
+      "icon": "delhi-cities/mongol_pur_kalan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-36",
+      "name": "Rajokri",
+      "icon": "delhi-cities/rajokri_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-37",
+      "name": "Dallupura",
+      "icon": "delhi-cities/dallupura_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-38",
+      "name": "Deoli",
+      "icon": "delhi-cities/deoli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-39",
+      "name": "Gharoli",
+      "icon": "delhi-cities/gharoli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-40",
+      "name": "Jaffrabad",
+      "icon": "delhi-cities/jaffrabad_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-41",
+      "name": "Gokal Pur",
+      "icon": "delhi-cities/gokal_pur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-42",
+      "name": "Hastsal",
+      "icon": "delhi-cities/hastsal_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-43",
+      "name": "Kirari Suleman Nagar",
+      "icon": "delhi-cities/kirari_suleman_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-44",
+      "name": "Pooth Kalan",
+      "icon": "delhi-cities/pooth_kalan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-45",
+      "name": "Ghevra",
+      "icon": "delhi-cities/ghevra_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-46",
+      "name": "Pitam Pura",
+      "icon": "delhi-cities/pitam_pura_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-47",
+      "name": "Mirpur Turk",
+      "icon": "delhi-cities/mirpur_turk_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-48",
+      "name": "Alipur",
+      "icon": "delhi-cities/alipur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-49",
+      "name": "Dichaon Kalan",
+      "icon": "delhi-cities/dichaon_kalan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-50",
+      "name": "Bahadurgarh",
+      "icon": "delhi-cities/bahadurgarh_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-51",
+      "name": "Sadat Pur Gujran",
+      "icon": "delhi-cities/sadat_pur_gujran_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-52",
+      "name": "Saket",
+      "icon": "delhi-cities/saket_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-53",
+      "name": "Mandi House",
+      "icon": "delhi-cities/mandi_house_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-54",
+      "name": "Mayur Vihar",
+      "icon": "delhi-cities/mayur_vihar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-55",
+      "name": "Kirti Nagar",
+      "icon": "delhi-cities/kirti_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-56",
+      "name": "Chandni Chowk",
+      "icon": "delhi-cities/chandni_chowk_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-57",
+      "name": "Seelampur",
+      "icon": "delhi-cities/seelampur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-58",
+      "name": "Ansari Nagar",
+      "icon": "delhi-cities/ansari_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-59",
+      "name": "Ansari Nagar",
+      "icon": "delhi-cities/ansari_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-60",
+      "name": "Daula Kuan",
+      "icon": "delhi-cities/daula_kuan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-61",
+      "name": "Nehru Place",
+      "icon": "delhi-cities/nehru_place_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-62",
+      "name": "Lajpat Nagar",
+      "icon": "delhi-cities/lajpat_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-63",
+      "name": "Huaz Khas",
+      "icon": "delhi-cities/huaz_khas_icon.jpg",
+      "quick": false
+    }
+  ]
+}

@@ -5,7 +5,7 @@
       "name":"Arunachal Pradesh",
       "icon":"/static/shareable/icons/states/arunachal_pradesh_icon.jpg",
       "nearStates": [
-        "Assam", "Nagaland"
+        "Assam", "Nagaland", "Sikkim", "Manipur", "Meghalaya", "Mizoram", "Tripura"
       ],
       "quick":false
     },
@@ -23,7 +23,7 @@
       "name":"Bihar",
       "icon":"/static/shareable/icons/states/bihar_icon.jpg",
       "nearStates": [
-        "Jharkhand", "Uttar Pradesh", "West Bengal"
+        "Jharkhand", "Uttar Pradesh", "West Bengal", "Meghalaya", "Sikkim", "Tripura"
       ],
       "quick":false
     },
@@ -32,7 +32,7 @@
       "name":"Chhattisgarh",
       "icon":"/static/shareable/icons/states/chhattisgarh_icon.jpg",
       "nearStates": [
-        "Madhya Pradesh", "Maharashtra", "Jharkhand", "Orissa", "Uttar Pradesh", "Telangana"
+        "Madhya Pradesh", "Maharashtra", "Jharkhand", "Odisha", "Uttar Pradesh", "Telangana"
       ],
       "quick":false
     },
@@ -41,7 +41,7 @@
       "name":"Goa",
       "icon":"/static/shareable/icons/states/goa_icon.jpg",
       "nearStates": [
-
+        "Maharashtra", "Karnataka", "Lakshadweep"
       ],
       "quick":false
     },
@@ -50,7 +50,7 @@
       "name":"Gujarat",
       "icon":"/static/shareable/icons/states/gujarat_icon.jpg",
       "nearStates": [
-
+        "Madhya Pradesh", "Maharashtra", "Rajasthan", "Daman And Diu", "Dadra And Nagar Haveli", "Daman And Diu"
       ],
       "quick":false
     },
@@ -59,7 +59,7 @@
       "name":"Haryana",
       "icon":"/static/shareable/icons/states/haryana_icon.jpg",
       "nearStates": [
-
+        "Delhi", "Uttar Pradesh", "Rajasthan", "Punjab", "Uttar Pradesh", "Himachal Pradesh", "Jammu and Kashmir"
       ],
       "quick":false
     },
@@ -68,7 +68,7 @@
       "name":"Odisha",
       "icon":"/static/shareable/icons/states/odisha_icon.jpg",
       "nearStates": [
-
+        "West Bengal", "Jharkhand", "Chhattisgarh", "Telangana", "Andhra Pradesh", "Andaman And Nicobar Islands", "Telangana"
       ],
       "quick":false
     },
@@ -77,7 +77,7 @@
       "name":"Maharashtra",
       "icon":"/static/shareable/icons/states/maharashtra_icon.jpg",
       "nearStates": [
-
+        "Madhya Pradesh", "Gujarat", "Telangana", "Karnataka", "Goa", "Chhattisgarh", "Dadra And Nagar Haveli", "Daman And Diu"
       ],
       "quick":false
     },
@@ -86,7 +86,7 @@
       "name":"Punjab",
       "icon":"/static/shareable/icons/states/punjab_icon.jpg",
       "nearStates": [
-
+        "Jammu and Kashmir", "Himachal Pradesh", "Haryana", "Rajasthan", "Delhi", "Uttrakhand", "Uttar Pradesh"
       ],
       "quick":false
     },
@@ -95,7 +95,7 @@
       "name":"Himachal Pradesh",
       "icon":"/static/shareable/icons/states/himachal_pradesh_icon.jpg",
       "nearStates": [
-        "Jammu and Kashmir", "Punjab", "Haryana", "Uttar Pradesh", "Uttrakhand"
+        "Jammu and Kashmir", "Punjab", "Haryana", "Uttar Pradesh", "Uttrakhand", "Delhi"
       ],
       "quick":false
     },
@@ -104,7 +104,7 @@
       "name":"Jammu And Kashmir",
       "icon":"/static/shareable/icons/states/jammu_and_kashmir_icon.jpg",
       "nearStates": [
-
+        "Himachal Pradesh", "Punjab", "Uttar Pradesh", "Haryana"
       ],
       "quick":false
     },
@@ -113,7 +113,7 @@
       "name":"Jharkhand",
       "icon":"/static/shareable/icons/states/jharkhand_icon.jpg",
       "nearStates": [
-
+        "Bihar", "Uttar Pradesh", "West Bengal", "Odisha", "Chhattisgarh", "Tripura", "Sikkim"
       ],
       "quick":false
     },
@@ -122,7 +122,7 @@
       "name":"Karnataka",
       "icon":"/static/shareable/icons/states/karnataka_icon.jpg",
       "nearStates": [
-
+        "Maharashtra", "Goa", "Kerala", "Andhra Pradesh", "Telangana", "Tamil Nadu", "Lakshadweep", "Pondicherry"
       ],
       "quick":false
     },
@@ -131,7 +131,7 @@
       "name":"Kerala",
       "icon":"/static/shareable/icons/states/kerala_icon.jpg",
       "nearStates": [
-
+        "Tamil Nadu", "Karnataka", "Lakshadweep", "Andaman And Nicobar Islands"
       ],
       "quick":false
     },
@@ -140,7 +140,7 @@
       "name":"Madhya Pradesh",
       "icon":"/static/shareable/icons/states/madhya_pradesh_icon.jpg",
       "nearStates": [
-
+        "Maharashtra", "Gujarat", "Rajasthan", "Uttar Pradesh", "Chhattisgarh", "Daman And Diu", "Dadra And Nagar Haveli"
       ],
       "quick":false
     },
@@ -149,7 +149,7 @@
       "name":"Manipur",
       "icon":"/static/shareable/icons/states/manipur_icon.jpg",
       "nearStates": [
-
+        "Arunachal Pradesh", "Meghalaya", "Mizoram", "Tripura", "Nagaland", "Assam"
       ],
       "quick":false
     },
@@ -158,7 +158,7 @@
       "name":"Meghalaya",
       "icon":"/static/shareable/icons/states/meghalaya_icon.jpg",
       "nearStates": [
-
+        "Assam", "Manipur", "Sikkim", "Tripura", "Mizoram", "Nagaland", "Arunachal Pradesh", "Bihar", "West Bengal"
       ],
       "quick":false
     },
@@ -167,7 +167,7 @@
       "name":"Mizoram",
       "icon":"/static/shareable/icons/states/mizoram_icon.jpg",
       "nearStates": [
-
+        "Tripura", "Manipur", "Nagaland", "Meghalaya", "Assam", "Andaman And Nicobar Islands"
       ],
       "quick":false
     },
@@ -176,7 +176,7 @@
       "name":"Nagaland",
       "icon":"/static/shareable/icons/states/nagaland_icon.jpg",
       "nearStates": [
-
+        "Arunachal Pradesh", "Assam", "Manipur", "Tripura", "Mizoram"
       ],
       "quick":false
     },
@@ -185,7 +185,7 @@
       "name":"Rajasthan",
       "icon":"/static/shareable/icons/states/rajasthan_icon.jpg",
       "nearStates": [
-
+        "Madhya Pradesh", "Gujarat", "Haryana", "Uttar Pradesh", "Delhi", "Punjab"
       ],
       "quick":false
     },
@@ -194,7 +194,7 @@
       "name":"Sikkim",
       "icon":"/static/shareable/icons/states/sikkim_icon.jpg",
       "nearStates": [
-
+        "West Bengal", "Bihar", "Meghalaya", "Assam", "Tripura", "Jharkhand"
       ],
       "quick":false
     },
@@ -203,7 +203,7 @@
       "name":"Tamil Nadu",
       "icon":"/static/shareable/icons/states/tamil_nadu_icon.jpg",
       "nearStates": [
-
+        "Kerala", "Karnataka", "Andhra Pradesh", "Andaman And Nicobar Islands", "Lakshadweep", "Pondicherry"
       ],
       "quick":false
     },
@@ -212,7 +212,7 @@
       "name":"Telangana",
       "icon":"/static/shareable/icons/states/telangana_icon.jpg",
       "nearStates": [
-
+        "Andhra Pradesh", "Odisha", "Chhattisgarh", "Maharashtra", "Karnataka", "Pondicherry"
       ],
       "quick":false
     },
@@ -221,7 +221,7 @@
       "name":"Tripura",
       "icon":"/static/shareable/icons/states/tripura_icon.jpg",
       "nearStates": [
-
+        "Assam", "Mizoram", "Nagaland", "Meghalaya", "Andaman And Nicobar Islands", "West Bengal", "Bihar", "Jharkhand"
       ],
       "quick":false
     },
@@ -230,7 +230,7 @@
       "name":"Uttar Pradesh",
       "icon":"/static/shareable/icons/states/uttar_pradesh_icon.jpg",
       "nearStates": [
-
+        "Uttrakhand", "Himachal Pradesh", "Haryana", "Delhi", "Rajasthan", "Madhya Pradesh", "Chhattisgarh", "Jharkhand", "Bihar"
       ],
       "quick":false
     },
@@ -239,7 +239,7 @@
       "name":"Uttarakhand",
       "icon":"/static/shareable/icons/states/uttarakhand_icon.jpg",
       "nearStates": [
-
+        "Himachal Pradesh", "Haryana", "Uttar Pradesh", "Punjab", "Delhi"
       ],
       "quick":false
     },
@@ -248,7 +248,7 @@
       "name":"West Bengal",
       "icon":"/static/shareable/icons/states/west_bengal_icon.jpg",
       "nearStates": [
-
+        "Odisha", "Jharkhand", "Bihar", "Chhattisgarh", "Mizoram", "Meghalaya", "Manipur", "Tripura", "Sikkim"
       ],
       "quick":false
     },
@@ -257,7 +257,7 @@
       "name":"Andaman And Nicobar Islands",
       "icon":"/static/shareable/icons/states/andaman_and_nicobar_islands_icon.jpg",
       "nearStates": [
-
+        "West Bengal", "Odisha", "Mizoram", "Manipur", "Meghalaya", "Andhra Pradesh", "Tamil Nadu", "Pondicherry", "Tripura"
       ],
       "quick":false
     },
@@ -266,7 +266,7 @@
       "name":"Dadra And Nagar Haveli",
       "icon":"/static/shareable/icons/states/dadra_and_nagar_haveli_icon.jpg",
       "nearStates": [
-
+        "Maharashtra", "Madhya Pradesh", "Gujarat", "Daman And Diu"
       ],
       "quick":false
     },
@@ -275,7 +275,7 @@
       "name":"Daman And Diu",
       "icon":"/static/shareable/icons/states/daman_and_diu_icon.jpg",
       "nearStates": [
-
+        "Maharashtra", "Madhya Pradesh", "Gujarat", "Dadra And Nagar Haveli"
       ],
       "quick":false
     },
@@ -284,16 +284,7 @@
       "name":"Lakshadweep",
       "icon":"/static/shareable/icons/states/lakshadweep_icon.jpg",
       "nearStates": [
-
-      ],
-      "quick":false
-    },
-    {  
-      "id":"33",
-      "name":"Puducherry",
-      "icon":"/static/shareable/icons/states/puducherry_icon.jpg",
-      "nearStates": [
-
+        "Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh", "Goa"
       ],
       "quick":false
     },
@@ -302,7 +293,7 @@
       "name":"Pondicherry",
       "icon":"/static/shareable/icons/states/pondicherry_icon.jpg",
       "nearStates": [
-        "Assam", "Nagaland"
+        "Andhra Pradesh", "Tamil Nadu", "Karnataka", "Telangana", "Andaman And Nicobar Islands"
       ],
       "quick":false
     },
@@ -311,7 +302,16 @@
       "name":"Andhra Pradesh",
       "icon":"/static/shareable/icons/states/andhra_pradesh_icon.jpg",
       "nearStates": [
-        "Odisha", "Chhattisgarh", "Telangana", "Karnataka", "Puducherry", "Tamil Madu"
+        "Odisha", "Chhattisgarh", "Telangana", "Karnataka", "Pondicherry", "Tamil Nadu", "Andaman And Nicobar Islands"
+      ],
+      "quick":false
+    },
+    {  
+      "id":"36",
+      "name":"Delhi",
+      "icon":"/static/shareable/icons/states/delhi_icon.jpg",
+      "nearStates": [
+        "Uttar Pradesh", "Haryana", "Uttrakhand", "Rajasthan", "Punjab", "Himachal Pradesh"
       ],
       "quick":false
     }

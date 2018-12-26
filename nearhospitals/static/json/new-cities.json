@@ -1,0 +1,759 @@
+{
+  "cities": [
+    {
+      "id": "delhi-cities-1",
+      "name": "New Delhi",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/new_delhi_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-2",
+      "name": "Gurugram",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/gurugram_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-3",
+      "name": "Faridabad",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/faridabad_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-4",
+      "name": "Mehrauli",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mehrauli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-5",
+      "name": "Ghaziabad",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/ghaziabad_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-6",
+      "name": "Connaught Place",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/connaught_place_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-7",
+      "name": "Sonipat",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/sonipat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-8",
+      "name": "Delhi Cantonment",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/delhi_cantonment_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-9",
+      "name": "Karol Bagh",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/karol_bagh_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-10",
+      "name": "Dilshad Garden",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/dilshad_garden_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-11",
+      "name": "Patparganj",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/patparganj_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-12",
+      "name": "Chanakyapuri",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/chanakyapuri_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-13",
+      "name": "Dwarka",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/dwarka_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-14",
+      "name": "Bawana",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/bawana_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-15",
+      "name": "Panipat",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/panipat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-16",
+      "name": "Badarpur",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/badarpur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-17",
+      "name": "Nangloi Jat",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/nangloi_jat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-18",
+      "name": "Bulandshahr",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/bulandshahr_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-19",
+      "name": "Kondli",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/kondli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-20",
+      "name": "Karawal Nagar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/karawal_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-21",
+      "name": "Begum Pur",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/begum_pur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-22",
+      "name": "Janakpuri",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/janakpuri_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-23",
+      "name": "Burari",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/burari_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-24",
+      "name": "Vasant Kunj",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/vasant_kunj_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-25",
+      "name": "Shahpur Jat",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/shahpur_jat_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-26",
+      "name": "Rohini",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/rohini_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-27",
+      "name": "Shahdara",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/shahdara_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-28",
+      "name": "Kanjhawala",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/kanjhawala_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-29",
+      "name": "Mundka",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mundka_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-30",
+      "name": "Greater Kailash",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/greater_kailash_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-31",
+      "name": "Kapas Hera",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/kapas_hera_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-32",
+      "name": "Najafgarh",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/najafgarh_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-33",
+      "name": "Sultan Pur",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/sultan_pur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-34",
+      "name": "Mandoli",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mandoli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-35",
+      "name": "Mongol Pur Kalan",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mongol_pur_kalan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-36",
+      "name": "Rajokri",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/rajokri_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-37",
+      "name": "Dallupura",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/dallupura_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-38",
+      "name": "Deoli",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/deoli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-39",
+      "name": "Gharoli",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/gharoli_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-40",
+      "name": "Jaffrabad",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/jaffrabad_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-41",
+      "name": "Gokal Pur",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/gokal_pur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-42",
+      "name": "Hastsal",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/hastsal_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-43",
+      "name": "Kirari Suleman Nagar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/kirari_suleman_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-44",
+      "name": "Pooth Kalan",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/pooth_kalan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-45",
+      "name": "Ghevra",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/ghevra_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-46",
+      "name": "Pitam Pura",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/pitam_pura_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-47",
+      "name": "Mirpur Turk",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mirpur_turk_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-48",
+      "name": "Alipur",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/alipur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-49",
+      "name": "Dichaon Kalan",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/dichaon_kalan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-50",
+      "name": "Bahadurgarh",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/bahadurgarh_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-51",
+      "name": "Sadat Pur Gujran",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/sadat_pur_gujran_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-52",
+      "name": "Saket",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/saket_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-53",
+      "name": "Mandi House",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mandi_house_icon.jpg",
+      "quick": true
+    },
+    {
+      "id": "delhi-cities-54",
+      "name": "Mayur Vihar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/mayur_vihar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-55",
+      "name": "Kirti Nagar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/kirti_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-56",
+      "name": "Chandni Chowk",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/chandni_chowk_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-57",
+      "name": "Seelampur",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/seelampur_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-58",
+      "name": "Ansari Nagar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/ansari_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-59",
+      "name": "Ansari Nagar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/ansari_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-60",
+      "name": "Daula Kuan",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/daula_kuan_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-61",
+      "name": "Nehru Place",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/nehru_place_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-62",
+      "name": "Lajpat Nagar",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/lajpat_nagar_icon.jpg",
+      "quick": false
+    },
+    {
+      "id": "delhi-cities-63",
+      "name": "Huaz Khas",
+      "state_id": "36",
+      "icon": "/static/shareable/icons/delhi-cities/huaz_khas_icon.jpg",
+      "quick": false
+    }, {
+      "id": "telanagna-cities-1",
+      "name": "Hyderabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/hyderabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-2",
+      "name": "Warangal",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/warangal_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-3",
+      "name": "Suryapet",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/suryapet_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-4",
+      "name": "Khammam",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/khammam_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-5",
+      "name": "Ramagundam",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/ramagundam_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-6",
+      "name": "Karimnagar",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/karimnagar_icon.jpg",
+      "quick": false
+  },{
+      "id": "telanagna-cities-8",
+      "name": "Nizamabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/nizamabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-9",
+      "name": "Nalgonda",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/nalgonda_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-10",
+      "name": "Adilabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/adilabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-11",
+      "name": "Miryalaguda",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/miryalaguda_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-12",
+      "name": "Sircilla",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/sircilla_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-13",
+      "name": "Siddipet",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/siddipet_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-14",
+      "name": "Asifabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/asifabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-15",
+      "name": "Mahbubnagar",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/mahbubnagar_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-16",
+      "name": "Malkajgiri",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/malkajgiri_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-17",
+      "name": "Jangaon",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/jangaon_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-18",
+      "name": "Sangareddy",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/sangareddy_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-19",
+      "name": "Gadwal",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/gadwal_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-20",
+      "name": "Nirmal",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/nirmal_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-21",
+      "name": "Mancherial",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/mancherial_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-22",
+      "name": "Jagtial",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/jagtial_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-23",
+      "name": "Kamareddy",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/kamareddy_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-24",
+      "name": "Wanaparthy",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/wanaparthy_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-25",
+      "name": "Vikarabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/vikarabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-26",
+      "name": "Nagarkurnool",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/nagarkurnool_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-27",
+      "name": "Bhongir",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/bhongir_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-28",
+      "name": "Bhadrachalam",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/bhadrachalam_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-29",
+      "name": "Kothagudem",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/kothagudem_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-30",
+      "name": "Peddapalli",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/peddapalli_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-31",
+      "name": "Secunderabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/secunderabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-32",
+      "name": "Vemulawada Karimnagar",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/vemulawada_karimnagar_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-33",
+      "name": "Shamshabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/shamshabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-34",
+      "name": "Tandur",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/tandur_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-35",
+      "name": "Medchal",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/medchal_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-36",
+      "name": "Bhainsa",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/bhainsa_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-37",
+      "name": "Medak",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/medak_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-38",
+      "name": "Mahabubabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/mahabubabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-39",
+      "name": "Palwancha",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/palwancha_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-40",
+      "name": "Sathupalli",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/sathupalli_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-41",
+      "name": "Manuguru",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/manuguru_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-42",
+      "name": "Zaheerabad",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/zaheerabad_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-43",
+      "name": "Bhupalpally",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/bhupalpally_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-44",
+      "name": "Luxettipet",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/luxettipet_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-45",
+      "name": "Dharmaram",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/dharmaram_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-46",
+      "name": "Yadagirigutta",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/yadagirigutta_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-47",
+      "name": "Yellandu",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/yellandu_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-48",
+      "name": "Bellampalle",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/bellampalle_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-49",
+      "name": "Koratla",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/koratla_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-50",
+      "name": "Shamirpet",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/shamirpet_icon.jpg",
+      "quick": false
+  }, {
+      "id": "telanagna-cities-51",
+      "name": "Kaghaznagar",
+      "state_id": "24",
+      "icon": "/static/shareable/icons/telanaga-cities/kaghaznagar_icon.jpg",
+      "quick": false
+  },
+  {  
+    "id":"telanagna-distrcit-3",
+    "name":"Ranga Reddy",
+    "state_id": "24",
+    "icon":"/static/shareable/icons/telanaga-distcrits/ranga_reddy_icon.jpg",
+    "quick":false
+  },
+  {  
+    "id":"telanagna-distrcit-14",
+    "name":"Yadadri Bhuvanagiri",
+    "state_id": "24",
+    "icon":"/static/shareable/icons/telanaga-distcrits/yadadri_bhuvanagiri_icon.jpg",
+    "quick":false
+  }
+  ]
+}

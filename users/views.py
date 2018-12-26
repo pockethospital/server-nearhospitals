@@ -513,3 +513,63 @@ def getAllStates(request):
     "states": locationFile.getAllStates()
   })
 
+# Get State Details Views
+@api_view(["POST"])
+@csrf_exempt
+@permission_classes((AllowAny,))
+def getState(request):
+  locationFile = LocationFile()
+
+  if request.data.get('id', None) is not None:
+    stateDetails = locationFile.getStateDetails(stateId=request.data.get('id'))
+  elif request.data.get('state', None) is not None:
+    stateDetails = locationFile.getStateDetails(stateName=request.data.get('state'))
+  else:
+    return Response({
+      "message": "Paramters Missing"
+    }, status= status.HTTP_400_BAD_REQUEST)
+  print(stateDetails)
+  stateDetails = list(stateDetails)
+  if len(stateDetails) > 0:
+    stateDetails = stateDetails[0]
+  else:
+    return Response({
+      'message': 'Invalid URL! Please check enter valid URL.'
+    }, status = status.HTTP_404_NOT_FOUND)
+
+  locationFile2 = LocationFile()
+  nearStates = locationFile2.makeQuickState(stateDetails["nearStates"])
+  # nearStates = []
+  # for nearState in stateDetails["nearStates"]:
+  #   locationFile2 = LocationFile()
+  #   data = locationFile2.getStateDetails(stateName=nearState.lower())
+  #   nearStates.append(data)
+    # print(nearState)
+    
+
+  stateCities = locationFile.getStateCities(stateDetails["id"])
+  return Response({
+    "nearStates": nearStates, 
+    "stateDetails": stateDetails,
+    "stateCities": stateCities
+  })
+
+# Get Location Views
+@api_view(["POST"])
+@csrf_exempt
+@permission_classes((AllowAny,))
+def getStateCities(request):
+  
+  state = request.data.get("state")
+  
+  if not state:
+    return Response({
+      "message": "Parameter is missing."
+    }, status=status.HTTP_400_BAD_REQUEST)
+
+  locationFile = LocationFile()
+  
+  return Response({
+    "cities": locationFile.getStateCities(state)
+  })
+

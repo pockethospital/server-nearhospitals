@@ -1,5 +1,6 @@
 {
-    "cities": [{
+    "cities": [
+      {
         "id": "telanagna-cities-1",
         "name": "Hyderabad",
         "icon": "telanaga-cities/hyderabad_icon.jpg",
@@ -29,12 +30,7 @@
         "name": "Karimnagar",
         "icon": "telanaga-cities/karimnagar_icon.jpg",
         "quick": false
-    }, {
-        "id": "telanagna-cities-7",
-        "name": "Karimnagar",
-        "icon": "telanaga-cities/karimnagar_icon.jpg",
-        "quick": false
-    }, {
+    },{
         "id": "telanagna-cities-8",
         "name": "Nizamabad",
         "icon": "telanaga-cities/nizamabad_icon.jpg",
@@ -254,5 +250,18 @@
         "name": "Kaghaznagar",
         "icon": "telanaga-cities/kaghaznagar_icon.jpg",
         "quick": false
-    }]
+    },
+    {  
+      "id":"telanagna-distrcit-3",
+      "name":"Ranga Reddy",
+      "icon":"telanaga-distcrits/ranga_reddy_icon.jpg",
+      "quick":false
+    },
+    {  
+      "id":"telanagna-distrcit-14",
+      "name":"Yadadri Bhuvanagiri",
+      "icon":"telanaga-distcrits/yadadri_bhuvanagiri_icon.jpg",
+      "quick":false
+    }
+  ]
 }

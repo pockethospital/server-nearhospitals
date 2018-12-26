@@ -145,13 +145,15 @@ class SendEmail:
 class LocationFile:
   stateFile = None
   cityFile = None
+  allCityFile = None
   states = []
   cities = []
   error = {}
 
   def __init__(self):
     stateFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/states.json' 
-    cityFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/cities.json'
+    cityFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/top-cities.json'
+    allCityFileName = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/static/json/new-cities.json'
 
     try:
       self.stateFile = open(stateFileName, 'r', 1) 
@@ -172,11 +174,23 @@ class LocationFile:
       }
     else:
       self.cities = []
+    
+    try:
+      self.allCityFile = open(allCityFileName, 'r', 1)
+    except:
+      self.error = {
+        "status": True,
+        "message": "All City Not Found in the list."
+      }
+    else:
+      self.cities = []
 
   # Destructor Defination
   def __del__(self):
+    print("Delete")
     self.stateFile.close()
     self.cityFile.close()
+    self.allCityFile.close()
 
   # States Methods Definations
   def getAllStates(self):
@@ -184,7 +198,7 @@ class LocationFile:
       return self.error
     
     self.states = []
-    print(self.stateFile)
+    data = {}
     data = json.load(self.stateFile)
     for dictData in data['states']:
       dictData['icon'] = getHostName()+dictData['icon']
@@ -192,10 +206,32 @@ class LocationFile:
     self.states = sorted(self.states, key= lambda item: item['name'] )
     return self.states
   
-  def getStateDetails(self, stateName):
+  def makeQuickState(self, nearStates):
     if self.error:
       return self.error
-    return list(filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates()))[0]
+    
+    self.states = []
+    data = json.load(self.stateFile)
+    for dictData in data['states']:
+      for nearState in nearStates:
+        if nearState.lower() == dictData['name'].lower():
+          dictData['quick'] = True
+      dictData['icon'] = getHostName()+dictData['icon']
+      self.states.append(dictData)
+    self.states = sorted(self.states, key= lambda item: item['name'] )
+    return self.states
+
+  def getStateDetails(self, stateId=None, stateName=None):
+    if self.error:
+      return self.error
+    if stateId is not None:
+      return filter(lambda item: (item['id'] == stateId), self.getAllStates())
+    elif stateName is not None:
+      return filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates())
+    else:
+      return []
+
+
   
   def isState(self, stateName):
     if self.error:
@@ -203,7 +239,7 @@ class LocationFile:
     if len(list(filter(lambda item: (item['name'].lower() == stateName.lower()), self.getAllStates()))) > 0:
       return True
     else:
-      return False 
+      return False
 
   # Cities Methods Defination
   def getAllCities(self):
@@ -213,9 +249,9 @@ class LocationFile:
     self.cities = []
     data = json.load(self.cityFile)
     for dictData in data['cities']:
-      title=dictData["name"]
-      title = title.strip(" ,")
-      maketrans = title.maketrans
+      # title=dictData["name"]
+      # title = title.strip(" ,")
+      # maketrans = title.maketrans
       # dictData["icon"] = "/assets/icons/cities/"+title.translate(maketrans(' ', '_')).lower()+"_icon.jpg"
       self.cities.append(dictData)
     self.cities = sorted(self.cities, key= lambda item: item['name'] )
@@ -236,9 +272,14 @@ class LocationFile:
       return self.error
     
     self.cities = []
-    data = json.load(self.cityFile)
+    data = json.load(self.allCityFile)
+
     self.cities = filter(lambda item: (item['state_id'] == stateID), data["cities"])
     self.cities = sorted(self.cities, key= lambda item: item['name'] )
+    for data in self.cities:
+      data['icon'] = getHostName()+data['icon']
+
+    # print(self.cities)
     return self.cities
 
   # def getStateDetails(self, cityName):

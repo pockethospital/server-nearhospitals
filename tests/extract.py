@@ -3,7 +3,7 @@ import os
 from urllib.request import urlretrieve
 
 def downloadImage(url, file_name):
-  file_path='states'
+  file_path='delhi-cities'
   if not os.path.exists(file_path):
     os.makedirs(file_path)
   fullPath = file_path +'/'+ file_name+'_icon.jpg'
@@ -11,7 +11,7 @@ def downloadImage(url, file_name):
   return fullPath
 
 def createJsonData(stateID='', name='', imgPath='', quick=False, index=0, startFile=False, endFile=False):
-  file_path='states'
+  file_path='delhi-cities'
 
   if not os.path.exists(file_path):
     os.makedirs(file_path)
@@ -41,12 +41,12 @@ saveFile = open('noheaders.txt','r', encoding='utf-8')
 html = saveFile.read()
 soup = BeautifulSoup( html, 'html.parser')
 imgs = soup.find_all('g-img', class_="BA0A6c")
-titles = soup.find_all('div', class_="S20Xzc")
+titles = soup.find_all('div', class_="kltat")
 
 print(len(imgs))
 print(len(titles))
 
-createJsonData(startFile=True, endFile=False)
+# createJsonData(startFile=True, endFile=False)
 
 for item in range(34):
   imageKeyURL = imgs[item].find('img').attrs.get('src')
@@ -61,10 +61,10 @@ for item in range(34):
   maketrans = title.maketrans 
 
 
-  filePath = downloadImage(imageKeyURL, title.translate(maketrans(' ', '_')).lower())
-  createJsonData(stateID='36', name=title, imgPath=filePath, quick=False, index=item)
+  # filePath = downloadImage(imageKeyURL, title.translate(maketrans(' ', '_')).lower())
+  # createJsonData(stateID='36', name=title, imgPath=filePath, quick=False, index=item)
 
-createJsonData(startFile=False, endFile=True)
+# createJsonData(startFile=False, endFile=True)
 
 saveFile.close()
 

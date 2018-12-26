@@ -339,14 +339,14 @@
         {
             "id": "285",
             "name": "Vijayawada",
-            "state_id": "2",
+            "state_id": "35",
             "quick": true,
             "icon": "/static/shareable/icons/cities/vijayawada_icon.jpg"
         },
         {
             "id": "287",
             "name": "Visakhapatnam",
-            "state_id": "2",
+            "state_id": "35",
             "quick": true,
             "icon": "/static/shareable/icons/cities/visakhapatnam_icon.jpg"
         }

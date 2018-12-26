@@ -8,7 +8,7 @@ def rchop(thestring, ending):
   return thestring
 
 def downloadImage(url, file_name):
-    file_path = 'telanaga-cities'
+    file_path = 'delhi-cities'
 
     if not os.path.exists(file_path):
         os.makedirs(file_path)
@@ -19,8 +19,8 @@ def downloadImage(url, file_name):
 
 def jsonFileCreate(title='', index=0, icon='', lastIndex=0, startFile=False, endFile=False):
 
-    fileName= 'telanga-cities.json'
-    file_path = 'telanaga-cities'
+    fileName= 'delhi-cities.json'
+    file_path = 'delhi-cities'
     fullpath = file_path+"/"+fileName
 
     if not os.path.exists(file_path):
@@ -74,6 +74,8 @@ def openFile(fileName):
                 data = data.replace(', ', ' ')        
                 data = data.replace('district', '')        
                 data = data.replace('India', '')        
+                data = data.replace('Delhi', '')        
+                data = data.replace(', New Delhi', '')        
                 text += data
         text = text.strip()
         
